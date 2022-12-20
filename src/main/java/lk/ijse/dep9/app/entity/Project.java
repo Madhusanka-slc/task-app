@@ -33,5 +33,4 @@ public class Project implements SuperEntity{
         this.user = user;
     }
 
-
 }
