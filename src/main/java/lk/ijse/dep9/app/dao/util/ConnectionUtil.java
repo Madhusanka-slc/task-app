@@ -2,7 +2,8 @@ package lk.ijse.dep9.app.dao.util;
 
 import java.sql.Connection;
 
-public class ConnectionUtil {
+public class ConnectionUtil{
+
 
     private static ThreadLocal<Connection> threadLocal=new ThreadLocal<>();
 
