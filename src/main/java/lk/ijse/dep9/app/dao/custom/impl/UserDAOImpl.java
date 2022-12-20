@@ -14,6 +14,7 @@ public class UserDAOImpl implements UserDAO {
         this.connection = connection;
     }
 
+
     @Override
     public User save(User user) {
         return null;
@@ -25,12 +26,12 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public void deleteById(Integer pk) {
+    public void deleteById(String pk) {
 
     }
 
     @Override
-    public Optional<User> findById(Integer pk) {
+    public Optional<User> findById(String pk) {
         return Optional.empty();
     }
 
@@ -45,7 +46,7 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public boolean existById(Integer pk) {
+    public boolean existById(String pk) {
         return false;
     }
 }

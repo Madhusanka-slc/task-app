@@ -10,9 +10,7 @@ import java.sql.Connection;
 public class DAOFactory {
     private static DAOFactory daoFactory;
 
-    private
-
-    DAOFactory() {
+    private DAOFactory() {
     }
 
     public static DAOFactory getInstance(){
